@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MusicDownloadButton'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'MusicDownloadButton is a custom UIView subclass which works like Apple Music\'s download button.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'MusicDownloadButton is a custom UIView subclass which works like Apple Music\'s download button.'
+  s.description      = 'MusicDownloadButton is a custom UIView subclass which works like Apple Music\'s download button. It is available on GitHub'
 
   s.homepage         = 'https://github.com/rafaelc0sta/MusicDownloadButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,7 +29,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MusicDownloadButton/Classes/**/*'
-  
+
+  s.swift_versions = "4.2"  
+ 
   # s.resource_bundles = {
   #   'MusicDownloadButton' => ['MusicDownloadButton/Assets/*.png']
   # }
