@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MusicDownloadButtonDelegate {
+public protocol MusicDownloadButtonDelegate {
     func startDownload()
     func stopDownload()
 }
