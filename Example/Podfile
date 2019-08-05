@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MusicDownloadButton_Tests' do
+  pod 'MusicDownloadButton', :path => '../'
+  
+  
+end
