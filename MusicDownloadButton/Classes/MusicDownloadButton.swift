@@ -33,7 +33,7 @@ class MusicDownloadButton: UIView {
         }
     }
     
-    var state: DownloadButton.State = .normal {
+    var state: MusicDownloadButton.State = .normal {
         didSet {
             self.setupMode()
         }
