@@ -41,13 +41,13 @@ public class MusicDownloadButton: UIView {
 
     public var color: UIColor = UIColor.white
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         self.setupMode()
     }
     
     func setupMode() {
-        let bundle = Bundle(forClass: self)
+        let bundle = Bundle(for: MusicDownloadButton.self)
         
         for view in self.subviews {
             view.removeFromSuperview()
