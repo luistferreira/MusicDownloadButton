@@ -13,17 +13,17 @@ protocol MusicDownloadButtonDelegate {
     func stopDownload()
 }
 
-class MusicDownloadButton: UIView {
+public class MusicDownloadButton: UIView {
     
-    var delegate: MusicDownloadButtonDelegate?
+    public var delegate: MusicDownloadButtonDelegate?
     
-    enum State {
+    public enum State {
         case normal
         case downloading
         case downloaded
     }
     
-    var progress: Double = 0.0 {
+    public var progress: Double = 0.0 {
         didSet {
             if let circularProgressView = self.subviews.first(where: { (view) -> Bool in
                 view is CircularProgressView
@@ -33,11 +33,13 @@ class MusicDownloadButton: UIView {
         }
     }
     
-    var state: MusicDownloadButton.State = .normal {
+    public var state: MusicDownloadButton.State = .normal {
         didSet {
             self.setupMode()
         }
     }
+
+    public var color: UIColor = UIColor.white
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -66,7 +68,7 @@ class MusicDownloadButton: UIView {
             self.addSubview(innerButton)
         case .downloading:
             let innerProgressView = CircularProgressView(frame: self.bounds)
-            innerProgressView.tintColor = UIColor.defaultTextColor
+            innerProgressView.tintColor = self.color
             innerProgressView.isUserInteractionEnabled = true
             innerProgressView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.downloadButtonPressed)))
             
@@ -78,7 +80,7 @@ class MusicDownloadButton: UIView {
             squareFrame.origin.y = self.bounds.height/2 - squareFrame.size.height/2
             
             let square = UIView(frame: squareFrame)
-            square.backgroundColor = UIColor.defaultAccentColor
+            square.backgroundColor = self.color
             
             self.addSubview(square)
             self.addSubview(innerProgressView)
