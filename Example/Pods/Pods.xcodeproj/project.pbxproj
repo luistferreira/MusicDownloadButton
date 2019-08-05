@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3BB1422CB23C6A156B27A0921D02F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		55906AC838061B73240BAF495C20A8DE /* MusicDownloadButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F3F912670DD48D4833DCC0F16015A3 /* MusicDownloadButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FF6C7720945747A082DB0E27E95BE60 /* Pods-MusicDownloadButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 613DB288FA3EE028ACC0916614F8B743 /* Pods-MusicDownloadButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC92ABA06F2B7FD07CADA240CC718470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2EC56D77F64E08169044D7979458EA1 /* MusicDownloadButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E73F92A1223C728B0597AA3A2CA8B2 /* MusicDownloadButton-dummy.m */; };
+		F81BEF9163715FD22578A1276BC817BA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165574D650D34338CC79AAC60E8DFFDE /* ReplaceMe.swift */; };
+		FDA9D778A10E815B3BF198D40F525390 /* Pods-MusicDownloadButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80501E6029085398124704BE73F402CA /* Pods-MusicDownloadButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73E75D1BA55E61BE10929EED3421BEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F2D8E167DD0C772998775824FAB63DF;
+			remoteInfo = MusicDownloadButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D2E34587DE5E0725D19B5AC578330F /* MusicDownloadButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MusicDownloadButton-Info.plist"; sourceTree = "<group>"; };
+		165574D650D34338CC79AAC60E8DFFDE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MusicDownloadButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EE446A2BEE4725D67409F6BE029325B /* Pods-MusicDownloadButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicDownloadButton_Tests.modulemap"; sourceTree = "<group>"; };
+		530FFAEC17C1861D1C9C5DFB166385A4 /* MusicDownloadButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MusicDownloadButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		552D5E71B6F924ECA604D90C35B28996 /* Pods-MusicDownloadButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicDownloadButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55E73F92A1223C728B0597AA3A2CA8B2 /* MusicDownloadButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MusicDownloadButton-dummy.m"; sourceTree = "<group>"; };
+		613DB288FA3EE028ACC0916614F8B743 /* Pods-MusicDownloadButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicDownloadButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		631A09164210E6D2D293B409C027FC2F /* MusicDownloadButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MusicDownloadButton-prefix.pch"; sourceTree = "<group>"; };
+		6B27DF2DEC4871422B0064B619BDDB3C /* Pods_MusicDownloadButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MusicDownloadButton_Tests.framework; path = "Pods-MusicDownloadButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E73157EF253A67E253B888FE475BD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		77B9F664B3C49C83FBA62FC1F95EB40C /* MusicDownloadButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MusicDownloadButton.framework; path = MusicDownloadButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80501E6029085398124704BE73F402CA /* Pods-MusicDownloadButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicDownloadButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F75D8CE340A94E008C40488C6A722DE /* MusicDownloadButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MusicDownloadButton.xcconfig; sourceTree = "<group>"; };
+		A6B8CD8D99388024EE9D92BE02126F96 /* Pods-MusicDownloadButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicDownloadButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		AFEE7D1CC2E7125896A4868418515B3C /* Pods-MusicDownloadButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicDownloadButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA42171CFF2889B7E1CBBB43038B3C4A /* MusicDownloadButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MusicDownloadButton.modulemap; sourceTree = "<group>"; };
+		BC1A9C8A1A85A0BFFE5C67F0CAB4B4D2 /* Pods-MusicDownloadButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicDownloadButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C79B8736A17B8D6DBC9766262522427E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E0F3F912670DD48D4833DCC0F16015A3 /* MusicDownloadButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MusicDownloadButton-umbrella.h"; sourceTree = "<group>"; };
+		F39AB62256F6E2469DAA6918F5EADA01 /* Pods-MusicDownloadButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicDownloadButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAFF5D1A6D2E6C2851743D386C8F5828 /* Pods-MusicDownloadButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicDownloadButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5767D6EE111C64A9B408FE30B7F0BC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3BB1422CB23C6A156B27A0921D02F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC344AA87125EE5FE7787CC8E3482543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC92ABA06F2B7FD07CADA240CC718470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		159E7F0DBCA4ACAAADEC4F8B309E1CA8 /* Pods-MusicDownloadButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE446A2BEE4725D67409F6BE029325B /* Pods-MusicDownloadButton_Tests.modulemap */,
+				FAFF5D1A6D2E6C2851743D386C8F5828 /* Pods-MusicDownloadButton_Tests-acknowledgements.markdown */,
+				552D5E71B6F924ECA604D90C35B28996 /* Pods-MusicDownloadButton_Tests-acknowledgements.plist */,
+				80501E6029085398124704BE73F402CA /* Pods-MusicDownloadButton_Tests-dummy.m */,
+				BC1A9C8A1A85A0BFFE5C67F0CAB4B4D2 /* Pods-MusicDownloadButton_Tests-frameworks.sh */,
+				A6B8CD8D99388024EE9D92BE02126F96 /* Pods-MusicDownloadButton_Tests-Info.plist */,
+				613DB288FA3EE028ACC0916614F8B743 /* Pods-MusicDownloadButton_Tests-umbrella.h */,
+				F39AB62256F6E2469DAA6918F5EADA01 /* Pods-MusicDownloadButton_Tests.debug.xcconfig */,
+				AFEE7D1CC2E7125896A4868418515B3C /* Pods-MusicDownloadButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-MusicDownloadButton_Tests";
+			path = "Target Support Files/Pods-MusicDownloadButton_Tests";
+			sourceTree = "<group>";
+		};
+		28BF5ADDC33C66323D54B62200F7A6DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A31E4BC0B6C984C29AE2451E78E3BD4 /* MusicDownloadButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		360A505AEC2BFDFC9903CADC9A7975D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA42171CFF2889B7E1CBBB43038B3C4A /* MusicDownloadButton.modulemap */,
+				9F75D8CE340A94E008C40488C6A722DE /* MusicDownloadButton.xcconfig */,
+				55E73F92A1223C728B0597AA3A2CA8B2 /* MusicDownloadButton-dummy.m */,
+				01D2E34587DE5E0725D19B5AC578330F /* MusicDownloadButton-Info.plist */,
+				631A09164210E6D2D293B409C027FC2F /* MusicDownloadButton-prefix.pch */,
+				E0F3F912670DD48D4833DCC0F16015A3 /* MusicDownloadButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MusicDownloadButton";
+			sourceTree = "<group>";
+		};
+		5A31E4BC0B6C984C29AE2451E78E3BD4 /* MusicDownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				165574D650D34338CC79AAC60E8DFFDE /* ReplaceMe.swift */,
+				67A4114BAA94FB9A126DC155DD5E332A /* Pod */,
+				360A505AEC2BFDFC9903CADC9A7975D3 /* Support Files */,
+			);
+			name = MusicDownloadButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		67A4114BAA94FB9A126DC155DD5E332A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C79B8736A17B8D6DBC9766262522427E /* LICENSE */,
+				530FFAEC17C1861D1C9C5DFB166385A4 /* MusicDownloadButton.podspec */,
+				75E73157EF253A67E253B888FE475BD8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				28BF5ADDC33C66323D54B62200F7A6DB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D222F2C3F0969E7C1637F74C50C5503C /* Products */,
+				ED81E927C941042C0DE303D6E6BE067F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D222F2C3F0969E7C1637F74C50C5503C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B9F664B3C49C83FBA62FC1F95EB40C /* MusicDownloadButton.framework */,
+				6B27DF2DEC4871422B0064B619BDDB3C /* Pods_MusicDownloadButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED81E927C941042C0DE303D6E6BE067F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				159E7F0DBCA4ACAAADEC4F8B309E1CA8 /* Pods-MusicDownloadButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9A9E9F815E859A8666B1236B763164DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF6C7720945747A082DB0E27E95BE60 /* Pods-MusicDownloadButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FEE1875D21CB7E19C7229297F1AC85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55906AC838061B73240BAF495C20A8DE /* MusicDownloadButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C348E0F1E6DE34C9493FC4A624587EB /* Pods-MusicDownloadButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8793C58A6072180091CDE28B30EDDF2 /* Build configuration list for PBXNativeTarget "Pods-MusicDownloadButton_Tests" */;
+			buildPhases = (
+				9A9E9F815E859A8666B1236B763164DC /* Headers */,
+				587674D871CE1A27122DAE94FF4EF562 /* Sources */,
+				CC344AA87125EE5FE7787CC8E3482543 /* Frameworks */,
+				B6AC2868B4547DEED569E63B9441FA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F17BC0B6DDF9C6B13806FD23758E91C /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicDownloadButton_Tests";
+			productName = "Pods-MusicDownloadButton_Tests";
+			productReference = 6B27DF2DEC4871422B0064B619BDDB3C /* Pods_MusicDownloadButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F2D8E167DD0C772998775824FAB63DF /* MusicDownloadButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27681842DFBA816E4A0543098CCB590 /* Build configuration list for PBXNativeTarget "MusicDownloadButton" */;
+			buildPhases = (
+				B1FEE1875D21CB7E19C7229297F1AC85 /* Headers */,
+				63BA62AE64FAA0175A7A658D7D5A1693 /* Sources */,
+				5767D6EE111C64A9B408FE30B7F0BC48 /* Frameworks */,
+				0EE89D0AB771DF2EDEBF85ABBD90B0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicDownloadButton;
+			productName = MusicDownloadButton;
+			productReference = 77B9F664B3C49C83FBA62FC1F95EB40C /* MusicDownloadButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D222F2C3F0969E7C1637F74C50C5503C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F2D8E167DD0C772998775824FAB63DF /* MusicDownloadButton */,
+				3C348E0F1E6DE34C9493FC4A624587EB /* Pods-MusicDownloadButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE89D0AB771DF2EDEBF85ABBD90B0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AC2868B4547DEED569E63B9441FA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587674D871CE1A27122DAE94FF4EF562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA9D778A10E815B3BF198D40F525390 /* Pods-MusicDownloadButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BA62AE64FAA0175A7A658D7D5A1693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EC56D77F64E08169044D7979458EA1 /* MusicDownloadButton-dummy.m in Sources */,
+				F81BEF9163715FD22578A1276BC817BA /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F17BC0B6DDF9C6B13806FD23758E91C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MusicDownloadButton;
+			target = 4F2D8E167DD0C772998775824FAB63DF /* MusicDownloadButton */;
+			targetProxy = 73E75D1BA55E61BE10929EED3421BEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A19345FFE618770D11443866BCE3412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F75D8CE340A94E008C40488C6A722DE /* MusicDownloadButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MusicDownloadButton/MusicDownloadButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MusicDownloadButton/MusicDownloadButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MusicDownloadButton/MusicDownloadButton.modulemap";
+				PRODUCT_MODULE_NAME = MusicDownloadButton;
+				PRODUCT_NAME = MusicDownloadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E72A1430AB4914969591492C4A6A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F75D8CE340A94E008C40488C6A722DE /* MusicDownloadButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MusicDownloadButton/MusicDownloadButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MusicDownloadButton/MusicDownloadButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MusicDownloadButton/MusicDownloadButton.modulemap";
+				PRODUCT_MODULE_NAME = MusicDownloadButton;
+				PRODUCT_NAME = MusicDownloadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB7E7C9731290F89E8685BEB53FF7321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEE7D1CC2E7125896A4868418515B3C /* Pods-MusicDownloadButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicDownloadButton_Tests/Pods-MusicDownloadButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicDownloadButton_Tests/Pods-MusicDownloadButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC2B144CB909C6E4BA0A8EAC49F07539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39AB62256F6E2469DAA6918F5EADA01 /* Pods-MusicDownloadButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicDownloadButton_Tests/Pods-MusicDownloadButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicDownloadButton_Tests/Pods-MusicDownloadButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27681842DFBA816E4A0543098CCB590 /* Build configuration list for PBXNativeTarget "MusicDownloadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E72A1430AB4914969591492C4A6A9C5 /* Debug */,
+				4A19345FFE618770D11443866BCE3412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8793C58A6072180091CDE28B30EDDF2 /* Build configuration list for PBXNativeTarget "Pods-MusicDownloadButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B144CB909C6E4BA0A8EAC49F07539 /* Debug */,
+				BB7E7C9731290F89E8685BEB53FF7321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

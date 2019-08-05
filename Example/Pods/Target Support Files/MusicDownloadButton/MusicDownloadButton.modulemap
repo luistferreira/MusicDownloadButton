@@ -1,0 +1,6 @@
+framework module MusicDownloadButton {
+  umbrella header "MusicDownloadButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

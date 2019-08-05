@@ -1,0 +1,16 @@
+PODS:
+  - MusicDownloadButton (0.1.0)
+
+DEPENDENCIES:
+  - MusicDownloadButton (from `../`)
+
+EXTERNAL SOURCES:
+  MusicDownloadButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MusicDownloadButton: 2b8cdd19132bf118d5948a69454e086102f8c926
+
+PODFILE CHECKSUM: a006128a0e8493cd37cf81fd5bdeb393c95582d1
+
+COCOAPODS: 1.7.1
