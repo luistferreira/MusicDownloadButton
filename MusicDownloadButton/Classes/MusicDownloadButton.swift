@@ -39,7 +39,11 @@ public class MusicDownloadButton: UIView {
         }
     }
 
-    public var color: UIColor = UIColor.white
+    public var color: UIColor = UIColor.white {
+        didSet {
+            self.setupMode()
+        }
+    }
     
     override public func awakeFromNib() {
         super.awakeFromNib()
