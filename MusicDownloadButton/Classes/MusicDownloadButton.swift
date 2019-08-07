@@ -51,7 +51,9 @@ public class MusicDownloadButton: UIView {
     }
     
     func setupMode() {
-        let bundle = Bundle(for: MusicDownloadButton.self)
+        let podBundle = Bundle(for: MusicDownloadButton.self)
+        let resourceBundleURL = podBundle.resourceURL?.appendingPathComponent("MusicDownloadButton.bundle")
+        let resourceBundle = Bundle(url: resourceBundleURL!)
         
         for view in self.subviews {
             view.removeFromSuperview()
@@ -67,7 +69,7 @@ public class MusicDownloadButton: UIView {
             frame.origin.y += 2
             
             let innerButton = UIButton(frame: frame)
-            innerButton.setImage(UIImage(named: "download_icon", in: bundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
+            innerButton.setImage(UIImage(named: "download_icon", in: resourceBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
             innerButton.addTarget(self, action: #selector(self.downloadButtonPressed), for: .touchUpInside)
             self.addSubview(innerButton)
         case .downloading:
@@ -90,7 +92,7 @@ public class MusicDownloadButton: UIView {
             self.addSubview(innerProgressView)
             
         case .downloaded:
-            let imageView = UIImageView(image: UIImage(named: "downloaded_icon", in: bundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate))
+            let imageView = UIImageView(image: UIImage(named: "downloaded_icon", in: resourceBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate))
             imageView.frame = self.bounds
             self.addSubview(imageView)
         }
