@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.swift_versions = "4.2"  
  
-  # s.resource_bundles = {
-  #   'MusicDownloadButton' => ['MusicDownloadButton/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'MusicDownloadButton' => ['MusicDownloadButton/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
