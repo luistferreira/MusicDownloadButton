@@ -69,6 +69,7 @@ public class MusicDownloadButton: UIView {
             frame.origin.y += 2
             
             let innerButton = UIButton(frame: frame)
+            innerButton.tintColor = self.color
             innerButton.setImage(UIImage(named: "download_icon", in: resourceBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
             innerButton.addTarget(self, action: #selector(self.downloadButtonPressed), for: .touchUpInside)
             self.addSubview(innerButton)
@@ -93,6 +94,7 @@ public class MusicDownloadButton: UIView {
             
         case .downloaded:
             let imageView = UIImageView(image: UIImage(named: "downloaded_icon", in: resourceBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate))
+            imageView.tintColor = self.color
             imageView.frame = self.bounds
             self.addSubview(imageView)
         }
